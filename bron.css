@@ -1,0 +1,175 @@
+body {
+    margin: 0px; 
+    font-family: 'Open Sans', sans-serif;
+     font-family: 'Oswald', sans-serif;
+ }
+ .header {
+     box-shadow:  inset 0px 0px 40px 40px rgba(0, 0, 0,0.6);
+     background-repeat: no repeat;
+     height: 100vh;
+     background-size:cover ;
+ }
+ .line-between {
+     position: absolute;
+     content: '';
+     height: 5px;
+     width: 100%;
+     background-color: #000000;
+     z-index: 25;
+     box-shadow: 0px 0px 40px 80px rgba(0, 0, 0,0.9);
+ }
+ .line-between1 {
+     position: absolute;
+     content: '';
+     height: 3px;
+     width: 100%;
+     background-color: #000000;
+     z-index: 25;
+     box-shadow: 0px 0px 30px 30px rgba(0, 0, 0,1);
+ }
+ .container {
+    margin: 0px 0px;
+}
+.header-line {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    z-index: 200;
+}
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.2s linear;
+}
+.nav-item:hover {
+    color: rgb(255, 115, 0);
+}
+.cart {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 35px;
+    height: 50px;
+    display: flex;
+}
+.cart-text {
+    font-weight: 900;
+    font-size: 18px;
+    padding-top: 11px;
+    padding-right: 5px;
+}
+.cart-img {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 15px;
+}
+.phone-img {
+    width: 20px;
+    height: 20px;
+}
+.num {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+.num:hover {
+    color: rgb(255, 115, 0);
+}
+.phone-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 12px;
+}
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+.phone {
+    padding-left: 15px;
+}
+.button {
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 17px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color 0.2s linear;
+}
+.button:hover {
+    background-color: rgb(114, 52, 2);
+    color: #afadad; 
+}
+.bron {
+    background-image: url(menu-title.jpg);
+    background-repeat: no repeat;
+    height: 100vh;
+    background-size:cover;
+}
+.fieldset {
+    padding-top: 1%;
+    font-family: 'Tinos', sans-serif;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
+.registr-logo {
+    width: 7%;
+    padding-left: 47%;
+    padding-top: 9%;
+}
+.registr-text {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+.registration {
+    padding-left: 40%;
+    display: block;
+}
+.name {
+    margin-top: 15px;
+    padding-top: 20px ;
+    color: #fff;
+}
+.email {
+    margin-top: 15px;
+    padding-top: 20px ;
+    color: #fff;
+}
+.time {
+    margin-top: 15px;
+    padding-top: 20px ;
+    color: #fff;
+}
+.send {
+    padding-top: 30px;
+    padding-left: 7%;
+    margin-right: 80%;
+    color: #000000;
+    color: #fff;
+}
+@media (max-width: 1500px) {
+    .registr-logo {
+        padding-top: 20%;
+        margin-top: 40%;
+    }
+    .registration {
+        font-size: 40px;
+    }
+}

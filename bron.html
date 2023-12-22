@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href="bron.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <title>Claude Monet</title>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="header-line">
+            <div class="header-logo">
+                <img class="logo-img" src="logo.png" alt="logo">
+            </div>
+            <div class="nav">
+                <a class="nav-item" href="index.html#main">ГЛАВНАЯ</a>
+                <a class="nav-item" href="index.html#menu">МЕНЮ</a>
+                <a class="nav-item" href="index.html#about-us">О НАС</a>
+                <a class="nav-item" href="bron.html">БРОНЬ</a>
+            </div>
+            <div class="cart">
+                <a href="*">
+                    <img class="cart-img" src="korzina.png" alt="cart">
+                </a>
+            </div>
+            <div class="phone">
+                <div class="phone-holder">
+                    <div class="phone-image">
+                        <img class="phone-img" src="phone.png" alt="phone">
+                    </div>
+                    <div class="number">
+                        <a class="num" href="*">+7-952-812-52</a>
+                    </div>
+                </div>
+                <div class="phone-text">
+                    Свяжитесь с нами
+                </div>
+            </div>
+            <div class="btn-zakaz-stolika">
+                <a class="button" href="*">ЗАКАЗ СТОЛИКА</a>
+            </div>
+        </div>
+    </div>
+    <div class="bron">
+        <img class="registr-logo" src="logo.png" alt="bronlogo">
+        <div class="fieldset">
+            <div class="registr-text">
+                Заказать столик
+            </div>
+            <div class="registration">
+                <form method="post" action="form.php">
+                    <div class="name">
+                        <label for="name">Имя</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="time">
+                        <label for="time">Время</label>
+                        <select name="time">
+                            <option>Выберите время</option>
+                            <option value="12:00">12:00</option>
+                            <option value="12:00">13:00</option>
+                            <option value="12:00">14:00</option>
+                            <option value="12:00">15:00</option>
+                            <option value="12:00">16:00</option>
+                            <option value="12:00">17:00</option>
+                            <option value="12:00">18:00</option>
+                            <option value="12:00">19:00</option>
+                            <option value="12:00">20:00</option>
+                            <option value="12:00">21:00</option>
+                            <option value="12:00">22:00</option>
+                            <option value="12:00">23:00</option>
+                        </select>
+                    </div>
+                    <div class="send">
+                        <button>Забронировать</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
